@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Simon Game</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="banner"></div>
+        <div class="container">
+            <div class="circle">
+                <span class="green panel" data-panel="0" id="green"></span>
+                <span class="red panel" data-panel="1" id="red"></span>
+                <span class="yellow panel" data-panel="2" id="yellow"></span>
+                <span class="blue panel" data-panel="3" id="blue"></span>
+                <span class="setup">
+                    <div class="title"><h1>Simon<sup>®</sup></h1></div>
+                    <div class="round"></div>
+                    <div class="buttons">
+                        <button class="play"></button>
+                        <button class="reset"></button>
+                    </div>
+                    <span class="count label">count</span>
+                    <span class="start label">start</span>
+                    <span class="stop label">stop</span>
+                </span>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/simonGame.js"></script>
+    </body>
+</html>

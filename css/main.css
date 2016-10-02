@@ -1,0 +1,166 @@
+@import 'https://fonts.googleapis.com/css?family=Electrolize|Rammetto+One';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner{margin: auto; text-align: center; width: 414px;}
+
+.container{margin: 0; padding: 0; width: 100%; height: 100%;}
+
+.circle{
+    margin: auto;
+    position: absolute;
+    left: 33%;
+    padding: 0;
+    margin-top: 50px;
+    max-width: 414px;
+    width: 100%;
+    max-height: 420px;
+    height: 100%;
+    border: 15px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.panel{
+    margin: 0;
+    padding: 0;
+    max-width: 200px;
+    width: 100%;
+    max-height: 210px;
+    height: 100%;
+    background-color: black;
+}
+
+.green{
+    border-bottom: 7.5px solid black;
+    border-right: 7.5px solid black;
+    background-color: darkgreen;
+    float: left;
+}
+
+.greenActive{background-color: #00b300;}
+
+.red{
+    border-left: 7.5px solid black;
+    border-bottom: 7.5px solid black;
+    background-color: darkred;
+    float: right;
+}
+
+.redActive{background-color: red;}
+
+.yellow{
+    border-top: 7.5px solid black;
+    border-right: 7.5px solid black;
+    background-color: darkgoldenrod;
+    float: left;
+}
+
+.yellowActive{background-color: yellow;}
+
+.blue{
+    border-top: 7.5px solid black;
+    border-left: 7.5px solid black;
+    background-color: darkblue;
+    float: right;
+}
+
+.blueActive{background-color: blue;}
+
+.setup{
+    margin: auto;
+    position: absolute;
+    left: 23%;
+    top: 25%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.title{
+    margin-top: 40px;
+    font-family: "Rammetto One", cursive;
+    font-size: 22px;
+    text-align: center;
+}
+
+sup{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 15px;
+}
+
+.round{
+    position: absolute;
+    left: 35px;
+    top: 110px;
+    width: 55px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15%;
+    float: left;
+    background-color: #003300;
+}
+
+p{
+    margin: 1px 5px;
+    text-shadow: 1px 1px 5px black;
+    float: right;
+    color: red;
+    font-family: "Electrolize", sans-serif;
+    font-size: 25px;
+}
+
+.buttons{
+    padding: 2px;
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    width: 70px; 
+    height: 34px;
+    float: right;
+}
+
+button{
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid black;
+    cursor: pointer;
+}
+
+.play{background-color: green;}
+.reset{background-color: yellow;}
+
+span.label{
+    position: absolute;
+    text-align: center;
+    font-family: "Electrolize", sans-serif;
+}
+
+.count{
+    left: 37px;
+    width: 55px;
+    font-size: 12px;
+}
+
+.start{
+    left: 103px;
+    width: 30px;
+    font-size: 10px;
+}
+
+.stop{
+    left: 137px;
+    width: 30px;
+    font-size: 10px;
+}
